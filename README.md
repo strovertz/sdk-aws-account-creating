@@ -32,8 +32,7 @@ Run the container using the image created in the previous command. Check the opt
 ```
 docker run -itd --rm --name boto3 --hostname boto3 -v C:\marko\GitHub\boto3:/local-git boto3-image
 ```
-Step into container
-Step into the created container
+Inside our container
 ```
 docker exec -it boto3 bash
 ```
