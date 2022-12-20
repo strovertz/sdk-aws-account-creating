@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL maintainer marko
+LABEL maintainer STRING_HERE
 
 ARG USER=centos
 ARG V_ENV=boto3venv
