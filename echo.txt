@@ -1,3 +1,0 @@
-”arn:aws:iam::166575812252:role/service-role/AWSControlTowerStackSetRole”
-prod-de6icm7cg3fgw
-pa-fzbxjooduy2aa
