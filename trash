@@ -1,0 +1,12 @@
+ ProvisioningPreferences={
+          'StackSetAccounts': [
+              '1',
+          ],
+          'StackSetRegions': [
+              '1',
+          ],
+          'StackSetFailureToleranceCount': 0,
+          #'StackSetFailureTolerancePercentage': 0,
+          'StackSetMaxConcurrencyCount': 1,
+          #'StackSetMaxConcurrencyPercentage': 123
+      },
