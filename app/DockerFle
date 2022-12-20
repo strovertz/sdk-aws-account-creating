@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL maintainer STRING_HERE
+LABEL maintainer marko
 
 ARG USER=centos
 ARG V_ENV=boto3venv
@@ -37,4 +37,4 @@ ENV PATH=/home/${USER}/${V_ENV}/bin:$PATH
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
-RUN python3 accprovider.py
+RUN python accprovider.py
