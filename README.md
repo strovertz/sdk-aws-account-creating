@@ -44,4 +44,4 @@ It also creates a user of your choice (default is centos) which is used to run t
 Virtual environment with Python 3.6 is created and the path to the binaries in the virtual environment's folder is added to the $PATH. With that, running command python will use Python3.6 or whichever Python version is installed in the virtual environment.
 
 Example
-In folder logic here is a Python example package and file which use library boto3 to list all buckets in the AWS S3.
+In folder logic here is a Python example package and file which use library boto3 to create an aws account using AWS Service Catalog + AWS Control Tower.
