@@ -19,9 +19,10 @@ The file docker/requirements.txt holds a list of python packages pip should inst
 ## Variables in DockerFile:
 Change the variables as needed.
 
-# Managing container:
+# Container management:
 
 Create Docker container
+
 ### Build image
 The following command builds an image boto3-image, you can found more commands at Docker Documentation.
 ```bash
