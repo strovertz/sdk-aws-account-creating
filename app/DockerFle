@@ -3,7 +3,7 @@ LABEL maintainer marko
 
 ARG USER=centos
 ARG V_ENV=boto3venv
-ARG VOLUME=/local-git
+ARG VOLUME='CHANGE_HERE'
 
 USER root
 
